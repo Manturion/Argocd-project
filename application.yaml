@@ -21,9 +21,3 @@ spec:
     automated:
       selfHeal: true
       prune: true
-  
-  source:
-    oauth:
-      tokenSecretRef:
-        name: myapp-repo-token
-        key: token 
